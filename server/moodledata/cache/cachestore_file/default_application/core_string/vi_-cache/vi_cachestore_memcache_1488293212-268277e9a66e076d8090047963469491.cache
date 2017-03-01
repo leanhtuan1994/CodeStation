@@ -1,0 +1,28 @@
+a:15:{s:9:"clustered";s:31:"Kích hoạt chuỗi máy chủ";s:14:"clustered_help";s:661:"Được dùng nhằm cho phép chức năng đọc một, đa ấn định (read-one, set-multi).
+
+Trường hợp sử dụng dự định là tạo bộ lưu trữ cải thiện cho các thiết lập cân bằng tải. Bộ lưu trữ sẽ lấy từ một máy chủ (thường là localhost), nhưng đặt đến nhiều (tất cả máy chủ trong bể cân bằng tải). Với các bộ đệm có độ đọc cao so với các tỷ lệ được ấn định, nó tiết kiệm đáng kể lưu lượng mạng quá ngưỡng.
+
+Khi thiết lập này được kích hoạt, máy chủ được liệt kê bên trên sẽ được dùng để lấy.";s:15:"clusteredheader";s:16:"Tách máy chủ";s:10:"pluginname";s:8:"Memcache";s:6:"prefix";s:17:"Tiền tố khóa";s:11:"prefix_help";s:263:"Tiền tố này được dùng cho tất cả tên khóa trên máy chủ memcache.
+* Nếu bạn chỉ có một thực thể Moodle dùng máy chủ này, bạn có thể để mặc định.
+* Vì giới hạn độ dài khóa, cho phép tối đa 5 ký tự.";s:13:"prefixinvalid";s:72:"Tiền tố không hợp lệ. Bạn chỉ có thể dùng a-z A-Z 0-9-_";s:7:"servers";s:15:"Các máy chủ";s:12:"servers_help";s:640:"Nó đặt các máy chủ được ưu hóa bởi bộ tiếp hợp memcache này.
+Các máy chủ nên được định nghĩa trên mỗi dòng và bao gồm địa chỉ máy chủ, và cổng, độ khối tùy ý.
+Nếu không cung cấp cổng thì cổng mặc định (11211) được dùng.
+
+Ví dụ:
+<pre>
+server.url.com
+ipaddress:port
+servername:port:weight
+</pre>
+
+Nếu *Kích hoạt chuỗi máy chủ* được kích hoạt bên dưới, phải có duy nhất một máy chủ được liệt kê ở đây. Thường thường nó sẽ là tên luôn luôn phân giải máy chủ cục bộ, như 127.0.0.1 hay localhost.";s:21:"serversclusterinvalid";s:83:"Chính xác một máy chủ được yêu cầu khi chuỗi được kích hoạt.";s:10:"setservers";s:22:"Đặt các máy chủ";s:15:"setservers_help";s:572:"Đây là danh sách máy chủ sẽ được cập nhật khi dữ liệu bị sửa đổi trong bộ đệm. Thông thường tên đầy đủ của mỗi máy chủ trong bể.
+Nó **phải** bao gồm máy chủ được liệt kê trong *Các máy chủ* bên trên, thậm chí là do tên máy chủ khác.
+Các máy chủ nên được định nghĩa trên mỗi dòng và bao gồm địa chỉ máy chủ, và cổng tùy ý.
+Nếu không cung cấp cổng thì cổng mặc định (11211) được dùng.
+
+Ví dụ:
+<pre>
+server.url.com
+ipaddress:port
+</pre>";s:22:"sessionhandlerconflict";s:259:"Cảnh báo: Một thực thể memcache ({$a}) đang được thiết lập để sử dụng cùng máy chủ được memcache làm các phiên hoạt động. Xóa tất cả bộ đệm sẽ dẫn đến việc các phiên hoạt động cũng bị xóa.";s:11:"testservers";s:25:"Thử nghiệm máy chủ";s:16:"testservers_desc";s:294:"Một hay nhiều các chuỗi kết nối để các máy chủ memcache thử. Nếu một máy chủ thử nghiệm đã được chỉ định thì hiệu năng memcache có thể được đánh giá dùng trang hiệu năng bộ đệm trong khối quản trị.
+Ví dụ: 127.0.0.1:11211";}
