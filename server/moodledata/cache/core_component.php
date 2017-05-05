@@ -511,6 +511,7 @@ $cache = array (
       'bootstrapbase' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/bootstrapbase',
       'clean' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/clean',
       'more' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/more',
+      'roshni' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/roshni',
     ),
     'assignsubmission' => 
     array (
@@ -2222,6 +2223,8 @@ $cache = array (
     'theme_boost_autoprefixer' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/boost/classes/autoprefixer.php',
     'theme_clean\\core_renderer' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/clean/classes/core_renderer.php',
     'theme_clean_core_renderer' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/clean/classes/core_renderer.php',
+    'theme_roshni\\core_renderer' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/roshni/classes/core_renderer.php',
+    'theme_roshni_core_renderer' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/roshni/classes/core_renderer.php',
     'tinymce_spellchecker\\EnchantSpell' => 'E:\\E-Learning\\CodeStation\\server\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
     'tinymce_spellchecker\\GoogleSpell' => 'E:\\E-Learning\\CodeStation\\server\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
     'tinymce_spellchecker\\PSpell' => 'E:\\E-Learning\\CodeStation\\server\\moodle/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
@@ -2711,6 +2714,7 @@ $cache = array (
         'boost' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/boost/lib.php',
         'clean' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/clean/lib.php',
         'more' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/more/lib.php',
+        'roshni' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/roshni/lib.php',
       ),
       'assignsubmission' => 
       array (
@@ -3019,6 +3023,7 @@ $cache = array (
         'boost' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/boost/settings.php',
         'clean' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/clean/settings.php',
         'more' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/more/settings.php',
+        'roshni' => 'E:\\E-Learning\\CodeStation\\server\\moodle/theme/roshni/settings.php',
       ),
       'assignsubmission' => 
       array (

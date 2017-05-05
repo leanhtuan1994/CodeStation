@@ -1,0 +1,13 @@
+a:39:{s:12:"choosereadme";s:340:"
+<div class="clearfix">
+<div class="well">
+<h2>Roshni</h2>
+<p><img class=img-polaroid src="roshni/pix/screenshot.jpg" /></p>
+</div>
+<div class="well">
+<h3>Theme Credits</h3>
+<p>Authors: Ensine Knowledge System PVT LTD.<br>
+Contact: roshni@dualcube.com<br>
+Website: <a href="https://dualcube.com/">https://dualcube.com/</a>
+</p>
+</div></div>";s:11:"configtitle";s:6:"Roshni";s:9:"customcss";s:10:"Custom CSS";s:13:"customcssdesc";s:123:"Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.";s:8:"footnote";s:8:"Footnote";s:12:"footnotedesc";s:94:"Whatever you add to this textarea will be displayed in the footer throughout your Moodle site.";s:6:"invert";s:13:"Invert navbar";s:10:"invertdesc";s:88:"Swaps text and background for the navbar at the top of the page between black and white.";s:4:"logo";s:4:"Logo";s:8:"logodesc";s:202:"The logo is displayed in the header.<br /> If the height of your logo is more than 75px add div.logo {height: 100px;} to the Custom CSS box below, amending accordingly if the height is other than 100px.";s:10:"pluginname";s:6:"Roshni";s:16:"region-side-post";s:5:"Right";s:15:"region-side-pre";s:4:"Left";s:15:"generalsettings";s:16:"General Settings";s:12:"standarddesc";s:21:"General Settings Desc";s:14:"customsettings";s:15:"Custom Settings";s:9:"fontfiles";s:22:"Upload Unlimited Fonts";s:13:"fontfilesdesc";s:28:"Upload your font files here.";s:18:"fontfilettfheading";s:21:"Heading TTF font file";s:18:"fontfileotfheading";s:21:"Heading OTF font file";s:19:"fontfilewoffheading";s:22:"Heading WOFF font file";s:22:"fontfilewofftwoheading";s:23:"Heading WOFF2 font file";s:18:"fontfileeotheading";s:21:"Heading EOT font file";s:18:"fontfilesvgheading";s:21:"Heading SVG font file";s:15:"fontfilettfbody";s:18:"Body TTF font file";s:15:"fontfileotfbody";s:18:"Body OTF font file";s:16:"fontfilewoffbody";s:19:"Body WOFF font file";s:19:"fontfilewofftwobody";s:20:"Body WOFF2 font file";s:15:"fontfileeotbody";s:18:"Body EOT font file";s:15:"fontfilesvgbody";s:18:"Body SVG font file";s:14:"fontselectdesc";s:16:"Font Select Desc";s:16:"fonttypestandard";s:18:"Font Type Standard";s:14:"fonttypecustom";s:16:"Font Type Custom";s:10:"fontselect";s:11:"Select Font";s:15:"fontnameheading";s:24:"Choose Font Name Heading";s:19:"fontnameheadingdesc";s:20:"Fontname Headingdesc";s:12:"fontnamebody";s:21:"Choose Font Name Body";s:16:"fontnamebodydesc";s:18:"Fontname Body Desc";s:10:"customdesc";s:11:"Custom Desc";}
