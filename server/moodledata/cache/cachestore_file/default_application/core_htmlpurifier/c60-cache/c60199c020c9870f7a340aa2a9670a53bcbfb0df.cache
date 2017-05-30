@@ -1,0 +1,10 @@
+s:739:"<p>There are 7 display formats:</p>
+
+<ul><li>Simple, dictionary style - No authors are displayed and attachments are shown as links</li>
+<li>Continuous without author - Entries are displayed one after another without any separation apart from the editing icons</li>
+<li>Full with author - A forum-like display format showing the author's data and with attachments shown as links</li>
+<li>Full without author - A forum-like display format without authors and with attachments shown as links</li>
+<li>Encyclopedia - As for "Full with author" but attached images are shown inline</li>
+<li>Entry list - Concepts are listed as links</li>
+<li>FAQ - The words QUESTION and ANSWER are appended to the concept and definition respectively</li>
+</ul>";

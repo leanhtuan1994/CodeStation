@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>Lesson02.A Hello Word Program 01</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+		<view-link href="/index.htm?slide={{position}}" href-html5="/index.htm?slide={{position}}" href-swf="/"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title>Your First Java Program</title>
+		<content>Your First Java Program class MyClass {   public static void main(String[ ] args) {     System.out.println(&amp;quot;Hello World&amp;quot;);   } } As a summary: - Every program in Java must have a class. - Every Java program starts from the main method. In Java, every line of code that can actually run needs to be inside a class. In our example, we named the class MyClass. You will learn more about classes in the upcoming modules. In Java, each application has an entry point, or a starting point, which is a method called main. Along with main, the keywords public and static will also be explained later.  Your First Java Program class MyClass {   public static void main(String[ ] args) {     System.out.println(&amp;quot;Hello World&amp;quot;);   } } As a summary: - Every program in Java must have a class. - Every Java program starts from the main method. In Java, every line of code that can actually run needs to be inside a class. In our example, we named the class MyClass. You will learn more about classes in the upcoming modules. In Java, each application has an entry point, or a starting point, which is a method called main. Along with main, the keywords public and static will also be explained later.  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+	</section>
+	<section type="slide" position="2" xmlns="">
+		<title>Which method is the starting point for all Java programs?</title>
+		<content>Which method is the starting point for all Java programs? Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear       Which method is the starting point for all Java programs? Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear       </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/>
+	</section>
+	<section type="slide" position="3" xmlns="">
+		<title></title>
+		<content>The main Method&amp;#x0A;To run our program, the main method must be identical to this signature:  public: anyone can access it - static: method can be run without creating an instance of the class containing the main method - void: method doesn't return any value - main: the name of the method public static void main(String[ ] args) The method's parameters are declared inside the parentheses that follow the name of the method.  For main, it's an array of strings called args. We will use it in our next lesson, so don't worry if you don't understand it all now. The main Method&amp;#x0A;To run our program, the main method must be identical to this signature:  public: anyone can access it - static: method can be run without creating an instance of the class containing the main method - void: method doesn't return any value - main: the name of the method public static void main(String[ ] args) The method's parameters are declared inside the parentheses that follow the name of the method.  For main, it's an array of strings called args. We will use it in our next lesson, so don't worry if you don't understand it all now. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/>
+	</section>
+	<section type="slide" position="4" xmlns="">
+		<title>Fill in the blank to declare a method called "hello()". </title>
+		<content>Fill in the blank to declare a method called &amp;quot;hello()&amp;quot;.&amp;#x0A; Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear   ()   void Fill in the blank to declare a method called &amp;quot;hello()&amp;quot;.&amp;#x0A; Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear   ()   void </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/>
+	</section>
+	<section type="slide" position="5" xmlns="">
+		<title></title>
+		<content>System.out.println() Next is the body of the main method, enclosed in curly braces: {    System.out.println(&amp;quot;Hello World!&amp;quot;); } The println method prints a line of text to the screen. The System class and its out stream are used to access the println method. In classes, methods, and other flow-control structures code is always enclosed in curly braces { }. System.out.println() Next is the body of the main method, enclosed in curly braces: {    System.out.println(&amp;quot;Hello World!&amp;quot;); } The println method prints a line of text to the screen. The System class and its out stream are used to access the println method. In classes, methods, and other flow-control structures code is always enclosed in curly braces { }. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/>
+	</section>
+	<section type="slide" position="6" xmlns="">
+		<title>Which method prints text in a Java program? </title>
+		<content>Which method prints text in a Java program?&amp;#x0A; Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) System.out() B) System.printText() C) System.out.println() System.out.println() D) out.writeText() Which method prints text in a Java program?&amp;#x0A; Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) System.out() B) System.printText() C) System.out.println() System.out.println() D) out.writeText() </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/>
+	</section>
+	<section type="slide" position="7" xmlns="">
+		<title></title>
+		<content>Semicolons in Java You can pass a different text as the parameter to the println method to print it class MyClass {   public static void main(String[ ] args) {     System.out.println(&amp;quot;I am learning Java&amp;quot;);   } } Remember: do not use semicolons after method and class declarations that follow with the body defined using the curly braces. Semicolons in Java You can pass a different text as the parameter to the println method to print it class MyClass {   public static void main(String[ ] args) {     System.out.println(&amp;quot;I am learning Java&amp;quot;);   } } Remember: do not use semicolons after method and class declarations that follow with the body defined using the curly braces. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/>
+	</section>
+	<section type="slide" position="8" xmlns="">
+		<title>Fill in the blanks to create a valid Java program.</title>
+		<content>Fill in the blanks to create a valid Java program. Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear System.out.println(&amp;quot;Hello, World!&amp;quot;);     }  }     Apples {  public static  (String[ ]args) {  void Fill in the blanks to create a valid Java program. Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear System.out.println(&amp;quot;Hello, World!&amp;quot;);     }  }     Apples {  public static  (String[ ]args) {  void </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/>
+	</section>
+	<section type="slide" position="9" xmlns="">
+		<title>A Hello World Program</title>
+		<content>A Hello World Program Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue A Hello World Program Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/>
+	</section>
+</document-metadata>

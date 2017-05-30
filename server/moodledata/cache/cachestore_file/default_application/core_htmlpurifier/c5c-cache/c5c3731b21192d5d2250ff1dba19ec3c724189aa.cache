@@ -1,0 +1,6 @@
+s:426:"<p>Whether hidden grade items are hidden entirely or if the names of hidden grade items are visible to students.</p>
+
+<ul><li>Show hidden - Hidden grade item names are shown but student grades are hidden</li>
+<li>Only hidden until - Grade items with a "hide until" date set are hidden completely until the set date, after which the whole item is shown</li>
+<li>Do not show - Hidden grade items are completely hidden</li>
+</ul>";

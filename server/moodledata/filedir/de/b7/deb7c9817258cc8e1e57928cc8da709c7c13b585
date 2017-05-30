@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracking-metadata generator="Presenter ver 10.0" version="1.0">
+	<objective id="Quiz10066" max-score="4" passing-score="3" min-score="0">
+		<name>A Hello World Program</name>
+		<interactions>
+			<interaction id="Interaction10075" QUniqId="10075" type="fill-in" score="1" correct-response="">
+				<title>&lt;1&gt;     
+</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">main</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10089" QUniqId="10089" type="fill-in" score="1" correct-response="">
+				<title>void&lt;1&gt;  ()   
+</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">hello</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10103" QUniqId="10103" type="choice" score="1" correct-response="C">
+				<name>Multiple choice</name>
+				<title>Which method prints text in a Java program? </title>
+				<responses>
+					<response id="A">System.out() </response>
+					<response id="B">System.printText() </response>
+					<response id="C">System.out.println() System.out.println() </response>
+					<response id="D">out.writeText() </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10122" QUniqId="10122" type="fill-in" score="1" correct-response="{}">
+				<title>&lt;1&gt;  Apples {  public static void&lt;2&gt; (String[ ]args) {  System.out.println("Hello, World!");     }  }   
+</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">class</option>
+					</response>
+					<response id="2">
+						<option id="0">*</option>
+						<option id="1">main</option>
+					</response>
+				</responses>
+			</interaction>
+		</interactions>
+	</objective>
+</tracking-metadata>

@@ -1,0 +1,7 @@
+s:402:"<p>Courses may be uploaded via text file. The format of the file should be as follows:</p>
+
+<ul><li>Each line of the file contains one record</li>
+<li>Each record is a series of data separated by commas (or other delimiters)</li>
+<li>The first record contains a list of fieldnames defining the format of the rest of the file</li>
+<li>Required fieldnames are shortname, fullname, and category</li>
+</ul>";

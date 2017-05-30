@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracking-metadata generator="Presenter ver 10.0" version="1.0">
+	<objective id="Quiz10010" max-score="4" passing-score="3" min-score="0">
+		<name>The Math Operators</name>
+		<interactions>
+			<interaction id="Interaction10053" QUniqId="10053" type="fill-in" score="1" correct-response="{}">
+				<title>&lt;1&gt;  var=&lt;2&gt;;   
+</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">int</option>
+					</response>
+					<response id="2">
+						<option id="0">*</option>
+						<option id="1">5</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10070" QUniqId="10070" type="fill-in" score="1" correct-response="{}">
+				<title>int x = 2; int y = 4;  int result = x&lt;1&gt;  &lt;2&gt;; System.out.println(&lt;3&gt;);   
+</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">+</option>
+					</response>
+					<response id="2">
+						<option id="0">*</option>
+						<option id="1">y</option>
+					</response>
+					<response id="3">
+						<option id="0">*</option>
+						<option id="1">result</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10097" QUniqId="10097" type="long-fill-in" score="1" correct-response="3">
+				<title>What is the result of the following code? int x = 15; int y = 4; int result = x / y; System.out.println(result);</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">3</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10109" QUniqId="10109" type="long-fill-in" score="1" correct-response="3">
+				<title>What value is stored in the result variable? int x = 8, y = 5; int result = x % y;</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">3</option>
+					</response>
+				</responses>
+			</interaction>
+		</interactions>
+	</objective>
+</tracking-metadata>

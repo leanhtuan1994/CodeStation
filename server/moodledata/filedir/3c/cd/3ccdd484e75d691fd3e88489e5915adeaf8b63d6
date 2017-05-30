@@ -1,0 +1,108 @@
+Which of the following is a valid class declaration?
+A.  class A { int x; };
+B. class B { }
+C. public class A { }
+D. object A { int x; };
+ANSWER: A
+The fields in the class in c++ program are by default
+A. protected
+B. private
+C. public
+D. none of the mentioned
+ANSWER: B
+Constructors are used to
+A.  initalize the objects
+B. construct the data members
+C. both a & b
+D. none of the mentioned
+ANSWER: A
+When struct is used instead of the keyword class means, what will happen in the program?
+A. access is public by default
+B. access is private by default
+C. access is protected by default
+D.  none of the mentioned
+ANSWER: A
+What does your class can hold?
+A. data
+B. functions
+C. both a & b
+D. none of the mentioned
+ANSWER: C
+How many specifiers are present in access specifiers in class?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: C
+Which is used to define the member of a class externally?
+A. :
+B. ::
+C. #
+D. none of the mentioned
+ANSWER: B
+Which other keywords are also used to declare the class other than class?
+A. struct
+B. union
+C. object
+D. both a & b
+ANSWER: D
+What is the size of wchar_t in C++?
+A. 2
+B. 4
+C. 2 or 4
+D. based on the number of bits in the system
+ANSWER: D
+Pick the odd one out
+A. array type
+B. character type
+C. boolean type
+D. integer type
+ANSWER: A
+Which datatype is used to represent the absence of parameters?
+A. int
+B. short
+C. void
+D. float
+ANSWER: C
+What does a escape code represent?
+A. alert
+B. backslash
+C. tab
+D. form feed
+ANSWER: A
+Which type is best suited to represent the logical values?
+A. integer
+B. boolean
+C. character
+D. all of the mentioned
+ANSWER: B
+Identify the user-defined types from the following?
+A. enumeration
+B. classes
+C. both a and b
+D. int
+ANSWER: C
+Which of the following statements are true?  int f(float)
+A. f is a function taking an argument of type int and retruning a floating point number
+B. f is a function taking an argument of type float and returning a integer.
+C. f is a function of type float
+D. none of the mentioned
+ANSWER: B
+The value 132.54 can represented using which data type?
+A. double
+B. void
+C. int
+D. bool
+ANSWER: A
+When a language has the capability to produce new data type mean, it can be called as
+A. overloaded
+B. extensible
+C. encapsulated
+D. reprehensible
+ANSWER: B
+Pick the odd one out.
+A. integer, character, boolean, floating
+B. enumeration, classes
+C. integer, enum, void
+D. arrays, pointer, classes
+ANSWER: C

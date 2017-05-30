@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>Lesson01. Introduction to Java 01</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+		<view-link href="/index.htm?slide={{position}}" href-html5="/index.htm?slide={{position}}" href-swf="/viewer.swf?slide={{position}}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title>Introduction to  Java </title>
+		<content>Introduction to &amp;#x0A;Java&amp;#x0A; Java is a high level, modern programming language Designed in 1990s by Sun Microsystems, and currently owned by Oracle. &amp;#x0A;&amp;#x0A;Java is Platform Independent, which means that you only need to write the program once to be able to run it on a number of different platforms!&amp;#x0A;Java is portable, robust, and dynamic, with the ability to fit the needs of virtually any type of application.    Java guarantees that you'll be able to Write Once, Run Anywhere. Introduction to &amp;#x0A;Java&amp;#x0A; Java is a high level, modern programming language Designed in 1990s by Sun Microsystems, and currently owned by Oracle. &amp;#x0A;&amp;#x0A;Java is Platform Independent, which means that you only need to write the program once to be able to run it on a number of different platforms!&amp;#x0A;Java is portable, robust, and dynamic, with the ability to fit the needs of virtually any type of application.    Java guarantees that you'll be able to Write Once, Run Anywhere. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+	</section>
+	<section type="slide" position="2" xmlns="">
+		<title>To distribute your application to different platforms, how many Java versions do you need to create?</title>
+		<content>To distribute your application to different platforms, how many Java versions do you need to create? Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) Two versions B) Just one version C) One for each platform To distribute your application to different platforms, how many Java versions do you need to create? Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) Two versions B) Just one version C) One for each platform </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/>
+	</section>
+	<section type="slide" position="3" xmlns="">
+		<title></title>
+		<content>Java: More than 3 billion devices run Java. &amp;#x0A;Java is used to develop apps for Google's Android OS, various Desktop Applications, such as media players, antivirus programs, Web Applications, Enterprise Applications (i.e. banking), and many more! Java: More than 3 billion devices run Java. &amp;#x0A;Java is used to develop apps for Google's Android OS, various Desktop Applications, such as media players, antivirus programs, Web Applications, Enterprise Applications (i.e. banking), and many more! </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/>
+	</section>
+	<section type="slide" position="4" xmlns="">
+		<title>Which one of the following statements is true?</title>
+		<content>Which one of the following statements is true? Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) Java is used only in web and mobile applications B) Java is used only in NASA's space related applications C) Java has a huge developer community Which one of the following statements is true? Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) Java is used only in web and mobile applications B) Java is used only in NASA's space related applications C) Java has a huge developer community </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/>
+	</section>
+	<section type="slide" position="5" xmlns="">
+		<title>Java</title>
+		<content>Java Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue Java Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/>
+	</section>
+</document-metadata>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>Lesson03.Java Comments</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+		<view-link href="/index.htm?slide={{position}}" href-html5="/index.htm?slide={{position}}" href-swf="/viewer.swf?slide={{position}}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title>Java Comments</title>
+		<content>Java Comments The purpose of including comments in your code is to explain what the code is doing. Java supports both single and multi-line comments. All characters that appear within a comment are ignored by the Java compiler. A single-line comment starts with two forward slashes and continues until it reaches the end of the line. // this is a single-line comment x = 5; // a single-line comment after code Adding comments as you write code is a good practice, because they provide clarification and understanding when you need to refer back to it, as well as for others who might need to read it. Java Comments The purpose of including comments in your code is to explain what the code is doing. Java supports both single and multi-line comments. All characters that appear within a comment are ignored by the Java compiler. A single-line comment starts with two forward slashes and continues until it reaches the end of the line. // this is a single-line comment x = 5; // a single-line comment after code Adding comments as you write code is a good practice, because they provide clarification and understanding when you need to refer back to it, as well as for others who might need to read it. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+	</section>
+	<section type="slide" position="2" xmlns="">
+		<title>Single-line comments are created using:</title>
+		<content>Single-line comments are created using: Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) */ characters at the beginning of the line B) ** characters at the beginning of the line C) // characters at the end of the line D) // characters at the beginning of the line Single-line comments are created using: Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) */ characters at the beginning of the line B) ** characters at the beginning of the line C) // characters at the end of the line D) // characters at the beginning of the line </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/>
+	</section>
+	<section type="slide" position="3" xmlns="">
+		<title>Multi-Line Comments</title>
+		<content>Multi-Line Comments Java also supports comments that span multiple lines. You start this type of comment with a forward slash followed by an asterisk, and end it with an asterisk followed by a forward slash.  For example: /*  This is also a     comment spanning     multiple lines */ Note that Java does not support nested multi-line comments.  However, you can nest single-line comments within multi-line comments. /* This is a single-line comment:     // a single-line comment  */ Multi-Line Comments Java also supports comments that span multiple lines. You start this type of comment with a forward slash followed by an asterisk, and end it with an asterisk followed by a forward slash.  For example: /*  This is also a     comment spanning     multiple lines */ Note that Java does not support nested multi-line comments.  However, you can nest single-line comments within multi-line comments. /* This is a single-line comment:     // a single-line comment  */ </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/>
+	</section>
+	<section type="slide" position="4" xmlns="">
+		<title>Make this text a multi-line comment.</title>
+		<content>Make this text a multi-line comment. Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear    some  * comment text      Make this text a multi-line comment. Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear    some  * comment text      </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/>
+	</section>
+	<section type="slide" position="5" xmlns="">
+		<title>Documentation Comments</title>
+		<content>Documentation Comments Documentation comments are special comments that have the appearance of multi-line comments, with the difference being that they generate external documentation of your source code. These begin with a forward slash followed by two asterisks, and end with an asterisk followed by a forward slash.  /** This is a documentation comment */ /** This is also a     documentation comment */ Javadoc is a tool which comes with JDK and it is used for generating Java code documentation in HTML format from Java source code which has required documentation in a predefined format. Documentation Comments Documentation comments are special comments that have the appearance of multi-line comments, with the difference being that they generate external documentation of your source code. These begin with a forward slash followed by two asterisks, and end with an asterisk followed by a forward slash.  /** This is a documentation comment */ /** This is also a     documentation comment */ Javadoc is a tool which comes with JDK and it is used for generating Java code documentation in HTML format from Java source code which has required documentation in a predefined format. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/>
+	</section>
+	<section type="slide" position="6" xmlns="">
+		<title></title>
+		<content>When a documentation comment begins with more than two asterisks, Javadoc assumes that you want to create a &amp;quot;box&amp;quot; around the comment in the source code. It simply ignores the extra asterisks. /********************** This is the start of a method ***********************/ This will retain just the text &amp;quot;This is the start of a method&amp;quot; for the documentation. When a documentation comment begins with more than two asterisks, Javadoc assumes that you want to create a &amp;quot;box&amp;quot; around the comment in the source code. It simply ignores the extra asterisks. /********************** This is the start of a method ***********************/ This will retain just the text &amp;quot;This is the start of a method&amp;quot; for the documentation. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/>
+	</section>
+	<section type="slide" position="7" xmlns="">
+		<title>You can add a Java doc style comment by using:</title>
+		<content>You can add a Java doc style comment by using: Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) // characters in the beginning of the line. B) // and */ characters to wrap a comment. C) /* and */ characters to wrap a comment. D) /** and */ characters to wrap a comment. You can add a Java doc style comment by using: Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear A) // characters in the beginning of the line. B) // and */ characters to wrap a comment. C) /* and */ characters to wrap a comment. D) /** and */ characters to wrap a comment. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/>
+	</section>
+	<section type="slide" position="8" xmlns="">
+		<title>Java Comments</title>
+		<content>Java Comments Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue Java Comments Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/>
+	</section>
+</document-metadata>

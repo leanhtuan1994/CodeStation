@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracking-metadata generator="Presenter ver 10.0" version="1.0">
+	<objective id="Quiz10010" max-score="2" passing-score="2" min-score="0">
+		<name>Variables</name>
+		<interactions>
+			<interaction id="Interaction10015" QUniqId="10015" type="choice" score="1" correct-response="B">
+				<name>Multiple choice</name>
+				<title>Which variable type would you use for a city name?</title>
+				<responses>
+					<response id="A">int </response>
+					<response id="B">String </response>
+					<response id="C">double </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10045" QUniqId="10045" type="fill-in" score="1" correct-response="{}">
+				<title>class Apples {    public static void main(String[ ]args) {       &lt;1&gt;   name = "John";        &lt;2&gt;age = 24;        &lt;3&gt;height = 189.87;    }  }   
+</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">string</option>
+					</response>
+					<response id="2">
+						<option id="0">*</option>
+						<option id="1">int</option>
+					</response>
+					<response id="3">
+						<option id="0">*</option>
+						<option id="1">double</option>
+					</response>
+				</responses>
+			</interaction>
+		</interactions>
+	</objective>
+</tracking-metadata>

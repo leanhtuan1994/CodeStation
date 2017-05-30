@@ -1,0 +1,8 @@
+s:404:"<p>This setting specifies whether to show or hide the navigation buttons and their position.</p>
+
+<p>There are 3 options:</p>
+
+<ul><li>No - Navigation buttons are not shown</li>
+<li>Under content - Navigation buttons are shown below the SCORM package content</li>
+<li>Floating - Navigation buttons are shown floating, with the position from the top and from the left determined by the package.</li>
+</ul>";

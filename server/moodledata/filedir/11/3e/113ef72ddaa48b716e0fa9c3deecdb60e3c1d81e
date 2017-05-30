@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracking-metadata generator="Presenter ver 10.0" version="1.0">
+	<objective id="Quiz10010" max-score="3" passing-score="2" min-score="0">
+		<name>Java Comments</name>
+		<interactions>
+			<interaction id="Interaction10015" QUniqId="10015" type="choice" score="1" correct-response="D">
+				<name>Multiple choice</name>
+				<title>Single-line comments are created using:</title>
+				<responses>
+					<response id="A">*/ characters at the beginning of the line </response>
+					<response id="B">** characters at the beginning of the line </response>
+					<response id="C">// characters at the end of the line </response>
+					<response id="D">// characters at the beginning of the line </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10041" QUniqId="10041" type="fill-in" score="1" correct-response="{}">
+				<title>&lt;1&gt;   some  * comment text  &lt;2&gt;   
+</title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">/*</option>
+					</response>
+					<response id="2">
+						<option id="0">*</option>
+						<option id="1">*/</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10058" QUniqId="10058" type="choice" score="1" correct-response="D">
+				<name>Multiple choice</name>
+				<title>You can add a Java doc style comment by using:</title>
+				<responses>
+					<response id="A">// characters in the beginning of the line. </response>
+					<response id="B">// and */ characters to wrap a comment. </response>
+					<response id="C">/* and */ characters to wrap a comment. </response>
+					<response id="D">/** and */ characters to wrap a comment. </response>
+				</responses>
+			</interaction>
+		</interactions>
+	</objective>
+</tracking-metadata>

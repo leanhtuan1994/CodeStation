@@ -15,10 +15,12 @@ $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbport' => '',
   'dbsocket' => '',
+  'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost:8080';
-$CFG->dataroot  = 'E:\\E-Learning\\CodeStation\\server\\moodledata';
+$CFG->wwwroot   = 'http://192.168.95.91:8181';
+//$CFG->wwwroot   = 'http://localhost:8181';
+$CFG->dataroot  = 'C:\\Users\\leanh\\Dropbox\\CodeStation\\server\\moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;

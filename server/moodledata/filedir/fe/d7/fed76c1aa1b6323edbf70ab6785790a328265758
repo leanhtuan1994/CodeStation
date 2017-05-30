@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>Lesson05.The Math Operators</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+		<view-link href="/index.htm?slide={{position}}" href-html5="/index.htm?slide={{position}}" href-swf="/viewer.swf?slide={{position}}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title>The Math Operators</title>
+		<content>The Math Operators Java provides a rich set of operators to use in manipulating variables. A value used on either side of an operator is called an operand.  For example, in the expression below, the numbers 6 and 3 are operands of the plus operator: int x = 6 + 3; Java arithmetic operators:  + addition - subtraction * multiplication / division % modulo Arithmetic operators are used in mathematical expressions in the same way that they are used in algebraic equations. The Math Operators Java provides a rich set of operators to use in manipulating variables. A value used on either side of an operator is called an operand.  For example, in the expression below, the numbers 6 and 3 are operands of the plus operator: int x = 6 + 3; Java arithmetic operators:  + addition - subtraction * multiplication / division % modulo Arithmetic operators are used in mathematical expressions in the same way that they are used in algebraic equations. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/>
+	</section>
+	<section type="slide" position="2" xmlns="">
+		<title>Fill in the blank to declare an integer variable and set its value to 5. </title>
+		<content>Fill in the blank to declare an integer variable and set its value to 5.&amp;#x0A; Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear ;     var= Fill in the blank to declare an integer variable and set its value to 5.&amp;#x0A; Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear ;     var= </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/>
+	</section>
+	<section type="slide" position="3" xmlns="">
+		<title></title>
+		<content>Addition The + operator adds together two values, such as two constants, a constant and a variable, or a variable and a variable. Here are a few examples of addition: int sum1 = 50 + 10;  int sum2 = sum1 + 66;  int sum3 = sum2 + sum2; Subtraction The - operator subtracts one value from another. int sum1 = 1000 - 10; int sum2 = sum1 - 5; int sum3 = sum1 - sum2; Addition The + operator adds together two values, such as two constants, a constant and a variable, or a variable and a variable. Here are a few examples of addition: int sum1 = 50 + 10;  int sum2 = sum1 + 66;  int sum3 = sum2 + sum2; Subtraction The - operator subtracts one value from another. int sum1 = 1000 - 10; int sum2 = sum1 - 5; int sum3 = sum1 - sum2; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/>
+	</section>
+	<section type="slide" position="4" xmlns="">
+		<title>Fill in the blanks to print the sum of the two variables.</title>
+		<content>Fill in the blanks to print the sum of the two variables. Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear int x = 2; int y = 4;  int result = ; x  );   System.out.println( Fill in the blanks to print the sum of the two variables. Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear int x = 2; int y = 4;  int result = ; x  );   System.out.println( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/>
+	</section>
+	<section type="slide" position="5" xmlns="">
+		<title>Multiplication</title>
+		<content>Multiplication The * operator multiplies two values int sum1 = 1000 * 2; int sum2 = sum1 * 10; int sum3 = sum1 * sum2; Division The / operator divides one value by another. int sum1 = 1000 / 5; int sum2 = sum1 / 2; int sum3 = sum1 / sum2; In the example above, the result of the division equation will be a whole number, as int is used as the data type. You can use double to retrieve a value with a decimal point. Multiplication The * operator multiplies two values int sum1 = 1000 * 2; int sum2 = sum1 * 10; int sum3 = sum1 * sum2; Division The / operator divides one value by another. int sum1 = 1000 / 5; int sum2 = sum1 / 2; int sum3 = sum1 / sum2; In the example above, the result of the division equation will be a whole number, as int is used as the data type. You can use double to retrieve a value with a decimal point. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/>
+	</section>
+	<section type="slide" position="6" xmlns="">
+		<title>What is the result of the following code? int x = 15; int y = 4; int result = x / y; System.out.println(result);</title>
+		<content>What is the result of the following code?&amp;#x0A;int x = 15; int y = 4;&amp;#x0A;int result = x / y;&amp;#x0A;System.out.println(result);  Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear What is the result of the following code?&amp;#x0A;int x = 15; int y = 4;&amp;#x0A;int result = x / y;&amp;#x0A;System.out.println(result);  Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/>
+	</section>
+	<section type="slide" position="7" xmlns="">
+		<title>Modulo</title>
+		<content>Modulo The modulo (or remainder) math operation performs an integer division of one value by another, and returns the remainder of that division.  The operator for the modulo operation is the percentage (%) character. Example: int value = 23; int res = value % 6; // res is 5 Dividing 23 by 6 returns a quotient of 3, with a remainder of 5. Thus, the value of 5 is assigned to the res variable. Modulo The modulo (or remainder) math operation performs an integer division of one value by another, and returns the remainder of that division.  The operator for the modulo operation is the percentage (%) character. Example: int value = 23; int res = value % 6; // res is 5 Dividing 23 by 6 returns a quotient of 3, with a remainder of 5. Thus, the value of 5 is assigned to the res variable. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/>
+	</section>
+	<section type="slide" position="8" xmlns="">
+		<title>What value is stored in the result variable? int x = 8, y = 5; int result = x % y;</title>
+		<content>What value is stored in the result variable?&amp;#x0A;int x = 8, y = 5;&amp;#x0A;int result = x % y;  Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear What value is stored in the result variable?&amp;#x0A;int x = 8, y = 5;&amp;#x0A;int result = x % y;  Correct - Click anywhere or press Control Y to continue Incorrect - Click anywhere or press Control Y to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Submit Clear </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/>
+	</section>
+	<section type="slide" position="9" xmlns="">
+		<title>The Math Operators</title>
+		<content>The Math Operators Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue The Math Operators Your ScoreMax ScoreNumber of Quiz Attempts Question Feedback/Review Information Will Appear Here Review Quiz Continue </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/>
+	</section>
+</document-metadata>

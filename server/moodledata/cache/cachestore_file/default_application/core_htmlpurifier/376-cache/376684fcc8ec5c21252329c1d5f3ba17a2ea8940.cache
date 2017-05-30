@@ -1,0 +1,6 @@
+s:223:"<p>This setting determines how grades are displayed in the grader and user reports.</p>
+
+<ul><li>Real - Actual grades</li>
+<li>Percentage</li>
+<li>Letter - Letters or words are used to represent a range of grades</li>
+</ul>";

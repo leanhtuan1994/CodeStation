@@ -1,0 +1,13 @@
+s:911:"<p></p><h1>Audience</h1><p>This tutorial has been prepared for the beginners to help them understand basic C# programming.</p><h1>Prerequisites</h1><p>C# programming is very much based on C and C++ programming languages, so if you have a basic understanding of C or C++ programming, then it will be fun to learn C#.</p><h1>Execute C# Online</h1><p>For most of the examples given in this tutorial you will find Try it option, so just make use of this option to execute your C# programs at the spot and enjoy your learning.</p><p>Try following example using Try it option available at the top right corner of the below sample code box −</p><pre>using System;
+namespace HelloWorldApplication
+{
+   class HelloWorld
+   {
+      static void Main(string[] args)
+      {
+         /* my first program in C# */
+         Console.WriteLine("Hello World");
+         Console.ReadKey();
+      }
+   }
+}</pre><br />";

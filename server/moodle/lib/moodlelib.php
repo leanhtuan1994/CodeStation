@@ -1864,6 +1864,8 @@ function mark_user_preferences_changed($userid) {
  *
  * If a $user object is submitted it's 'preference' property is used for the preferences cache.
  *
+ * When additional validation/permission check is needed it is better to use {@see useredit_update_user_preference()}
+ *
  * @package  core
  * @category preference
  * @access   public
@@ -2663,10 +2665,10 @@ function require_login($courseorid = null, $autologinguest = true, $cm = null, $
     }
 
     // Check that the user account is properly set up. If we can't redirect to
-    // edit their profile, perform just the lax check. It will allow them to
-    // use filepicker on the profile edit page.
+    // edit their profile and this is not a WS request, perform just the lax check.
+    // It will allow them to use filepicker on the profile edit page.
 
-    if ($preventredirect) {
+    if ($preventredirect && !WS_SERVER) {
         $usernotfullysetup = user_not_fully_set_up($USER, false);
     } else {
         $usernotfullysetup = user_not_fully_set_up($USER, true);
@@ -5812,7 +5814,7 @@ function email_to_user($user, $from, $subject, $messagetext, $messagehtml = '', 
 
     $alloweddomains = null;
     if (!empty($CFG->allowedemaildomains)) {
-        $alloweddomains = explode(PHP_EOL, $CFG->allowedemaildomains);
+        $alloweddomains = array_map('trim', explode("\n", $CFG->allowedemaildomains));
     }
 
     // Email will be sent using no reply address.
@@ -5968,6 +5970,7 @@ function email_to_user($user, $from, $subject, $messagetext, $messagehtml = '', 
     if ($attachment && $attachname) {
         if (preg_match( "~\\.\\.~" , $attachment )) {
             // Security check for ".." in dir path.
+            $supportuser = core_user::get_support_user();
             $temprecipients[] = array($supportuser->email, fullname($supportuser, true));
             $mail->addStringAttachment('Error in attachment.  User attempted to attach a filename with a unsafe name.', 'error.txt', '8bit', 'text/plain');
         } else {
@@ -9698,6 +9701,58 @@ function get_course_display_name_for_list($course) {
     } else {
         return $course->fullname;
     }
+}
+
+/**
+ * Safe analogue of unserialize() that can only parse arrays
+ *
+ * Arrays may contain only integers or strings as both keys and values. Nested arrays are allowed.
+ * Note: If any string (key or value) has semicolon (;) as part of the string parsing will fail.
+ * This is a simple method to substitute unnecessary unserialize() in code and not intended to cover all possible cases.
+ *
+ * @param string $expression
+ * @return array|bool either parsed array or false if parsing was impossible.
+ */
+function unserialize_array($expression) {
+    $subs = [];
+    // Find nested arrays, parse them and store in $subs , substitute with special string.
+    while (preg_match('/([\^;\}])(a:\d+:\{[^\{\}]*\})/', $expression, $matches) && strlen($matches[2]) < strlen($expression)) {
+        $key = '--SUB' . count($subs) . '--';
+        $subs[$key] = unserialize_array($matches[2]);
+        if ($subs[$key] === false) {
+            return false;
+        }
+        $expression = str_replace($matches[2], $key . ';', $expression);
+    }
+
+    // Check the expression is an array.
+    if (!preg_match('/^a:(\d+):\{([^\}]*)\}$/', $expression, $matches1)) {
+        return false;
+    }
+    // Get the size and elements of an array (key;value;key;value;....).
+    $parts = explode(';', $matches1[2]);
+    $size = intval($matches1[1]);
+    if (count($parts) < $size * 2 + 1) {
+        return false;
+    }
+    // Analyze each part and make sure it is an integer or string or a substitute.
+    $value = [];
+    for ($i = 0; $i < $size * 2; $i++) {
+        if (preg_match('/^i:(\d+)$/', $parts[$i], $matches2)) {
+            $parts[$i] = (int)$matches2[1];
+        } else if (preg_match('/^s:(\d+):"(.*)"$/', $parts[$i], $matches3) && strlen($matches3[2]) == (int)$matches3[1]) {
+            $parts[$i] = $matches3[2];
+        } else if (preg_match('/^--SUB\d+--$/', $parts[$i])) {
+            $parts[$i] = $subs[$parts[$i]];
+        } else {
+            return false;
+        }
+    }
+    // Combine keys and values.
+    for ($i = 0; $i < $size * 2; $i += 2) {
+        $value[$parts[$i]] = $parts[$i+1];
+    }
+    return $value;
 }
 
 /**

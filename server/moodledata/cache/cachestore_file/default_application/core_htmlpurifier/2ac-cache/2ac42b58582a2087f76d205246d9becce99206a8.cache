@@ -1,0 +1,6 @@
+s:455:"<p>The drop zones are defined by typing coordinates. As you type, the preview above is immediately updated, so you can position things by trial and improvement.</p>
+
+<ul><li>Circle: centre_x, centre_y; radius<br />for example: <code>80, 100; 50</code></li>
+<li>Polygon: x1, y1; x2, y2; ...; xn, yn<br />for example: <code>20, 60; 100, 60; 20, 100</code></li>
+<li>Rectangle: left, top, width, height<br />for example: <code>20, 60; 80, 40</code></li>
+</ul>";

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="Course_ID1" version="1.0" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+			<general>
+				<title>
+					<langstring xml:lang="x-none">Presenter e-Learning Course</langstring>
+				</title>
+				<catalogentry>
+					<catalog>Adobe Presenter Course</catalog>
+					<entry>
+						<langstring xml:lang="x-none">Course_ID1</langstring>
+					</entry>
+				</catalogentry>
+				<description>
+					<langstring xml:lang="x-none"></langstring>
+				</description>
+			</general>
+			<lifecycle>
+				<version>
+					<langstring xml:lang="x-none">1.0</langstring>
+				</version>
+				<status>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Final</langstring>
+					</value>
+				</status>
+			</lifecycle>
+			<metametadata>
+				<metadatascheme>ADL SCORM 1.2</metadatascheme>
+			</metametadata>
+			<technical>
+				<format>text/html</format>
+				<location>.</location>
+			</technical>
+			<rights>
+				<cost>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.10</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">no</langstring>
+					</value>
+				</cost>
+				<copyrightandotherrestrictions>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.10</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">no</langstring>
+					</value>
+				</copyrightandotherrestrictions>
+			</rights>
+			<classification>
+				<purpose>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Idea</langstring>
+					</value>
+				</purpose>
+				<description>
+					<langstring xml:lang="x-none"></langstring>
+				</description>
+				<keyword>
+					<langstring xml:lang="x-none">Adobe Presenter</langstring>
+				</keyword>
+			</classification>
+		</lom>
+	</metadata>
+	<organizations default="Course_ID1_ORG">
+		<organization identifier="Course_ID1_ORG">
+			<title>Presenter e-Learning Course</title>
+			<item identifier="SCO_ID1" isvisible="true" identifierref="SCO_ID1_RES">
+				<title>Course Object Title</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="SCO_ID1_RES" type="webcontent" href="SCORM.htm" adlcp:scormtype="sco">
+			<file href="as2-wrapper.swf"/>
+			<file href="breeze-manifest.xml"/>
+			<file href="browsersniff.js"/>
+			<file href="components.swf"/>
+			<file href="data/bg.swf"/>
+			<file href="data/connectmobile.dat"/>
+			<file href="data/html/fa/SourceSansPro-Bold.otf"/>
+			<file href="data/html/fa/SourceSansPro-Light.otf"/>
+			<file href="data/html/fa/SourceSansPro-Regular.otf"/>
+			<file href="data/html/jssor.slider.mini.js"/>
+			<file href="data/html/pa/Button_Default.png"/>
+			<file href="data/html/pa/common.png"/>
+			<file href="data/html/pa/desktop.png"/>
+			<file href="data/html/pa/follow.png"/>
+			<file href="data/html/pa/following.png"/>
+			<file href="data/html/pa/mobile.png"/>
+			<file href="data/html/pa/new Question.png"/>
+			<file href="data/html/pa/play-button-overlay.png"/>
+			<file href="data/html/pa/Pn_HTML5_player_spinner.gif"/>
+			<file href="data/html/pa/Spinner_800x600px_light.gif"/>
+			<file href="data/html/presenter.css"/>
+			<file href="data/html/presenter.extralibs.js"/>
+			<file href="data/html/presenter.js"/>
+			<file href="data/html/presenter.libs.js"/>
+			<file href="data/html/Project.js"/>
+			<file href="data/Layout0.swf"/>
+			<file href="data/Layout1.swf"/>
+			<file href="data/Layout2.swf"/>
+			<file href="data/Master0.swf"/>
+			<file href="data/resources/ha/0575d8ddfd1a4c859613d2ab596a0a45.png"/>
+			<file href="data/resources/ha/154dbd6e52984348b70c0339cdb630ad.png"/>
+			<file href="data/resources/ha/166c37bf7ae2431a938bc43e07c83fa7.png"/>
+			<file href="data/resources/ha/19477c5c2e4a4cd5a377bedd87d33dc3.png"/>
+			<file href="data/resources/ha/2a1885bd55164c9c90f03615417526ec.png"/>
+			<file href="data/resources/ha/2db9fc22fc504c7bb622029715a38c0c.png"/>
+			<file href="data/resources/ha/2fc7514d02aa42178e018720108b0e1b.png"/>
+			<file href="data/resources/ha/37a4b693a95744f7894504d40a2e95cf.png"/>
+			<file href="data/resources/ha/3ba981c6245e450a87437b727f9b5a8c.png"/>
+			<file href="data/resources/ha/46d36238d27a4fddb870dfe4f27f06c1.png"/>
+			<file href="data/resources/ha/47b7a769c09447748b3d85f7fa4d802e.png"/>
+			<file href="data/resources/ha/5535920055d749c48ae2f5d9a24c00f8.png"/>
+			<file href="data/resources/ha/5c23c97b3c2445e4b156ef5b05d442f8.png"/>
+			<file href="data/resources/ha/6263a211ff5146af9c14c102406fd646.png"/>
+			<file href="data/resources/ha/63c23c8983c7482b977bda1fc648a259.png"/>
+			<file href="data/resources/ha/6a11ab785aff4590b4185166734c3102.png"/>
+			<file href="data/resources/ha/775b0a83325c412f944a6bf3f7dfb07a.png"/>
+			<file href="data/resources/ha/7ec07c160a504f20bfd6b6654f4f445b.png"/>
+			<file href="data/resources/ha/80e5a0de2b5641daafc5743b39ed6d2d.png"/>
+			<file href="data/resources/ha/88a1620140cb43339d1644926bae7d76.png"/>
+			<file href="data/resources/ha/8ca0f27d973c449ca1c5093348bca102.png"/>
+			<file href="data/resources/ha/92d9d98422684b02a1e7cd156eb2d0f2.png"/>
+			<file href="data/resources/ha/96aa749c27db4392933a1a9106a7cb66.png"/>
+			<file href="data/resources/ha/9979dae79eb04d209a0c3ddecc9bc1ae.png"/>
+			<file href="data/resources/ha/9c4524ef6721412f95e63e5a9fbaf98f.png"/>
+			<file href="data/resources/ha/9c8340458fea4ebe93de259043fa9261.png"/>
+			<file href="data/resources/ha/a6dae59d99204806aa437cc84bd21cbf.png"/>
+			<file href="data/resources/ha/ae5ca878acdd4906951a600fc1e7e3ef.png"/>
+			<file href="data/resources/ha/aedb2db437e4469fa0a5d47220cf375f.png"/>
+			<file href="data/resources/ha/c1a40e52b9c74d6da62d25b04577ef4e.png"/>
+			<file href="data/resources/ha/c51deeca8ab54b4fba0550df977c578d.png"/>
+			<file href="data/resources/ha/c684b9a0ef494603ae58cba6b7aec481.png"/>
+			<file href="data/resources/ha/c991880c25a942cd88ea9e33c56536ad.png"/>
+			<file href="data/resources/ha/d551c8a968d0472abf49f85cc4f39ecd.png"/>
+			<file href="data/resources/ha/d572ff26f7c3492c8940265eae5c8468.png"/>
+			<file href="data/resources/ha/dc653e114f38462e9c2fdd60873a3778.png"/>
+			<file href="data/resources/ha/df4f203923d34f8c9578355ad64b3186.png"/>
+			<file href="data/resources/ha/df85dfd8e00d4c87a898df646e248897.png"/>
+			<file href="data/resources/ha/e3ca2f00674c4a7db0e23d45f0f76f21.png"/>
+			<file href="data/resources/ha/e74ebdef923f4f98b769de75e3850caa.png"/>
+			<file href="data/resources/ha/e7c1e2a2eb644d6bb6fad5ef9ee21c60.png"/>
+			<file href="data/resources/ha/f19aed183a584778bb3a6575133e362f.png"/>
+			<file href="data/resources/ha/fb9b67451e034bbb9b6f3f9d5e73b030.png"/>
+			<file href="data/resources/ha/Quiz_slide_thumbnail.png"/>
+			<file href="data/resources/ha/Slide1.PNG"/>
+			<file href="data/resources/ha/Slide2.PNG"/>
+			<file href="data/resources/ha/Slide4.PNG"/>
+			<file href="data/Slide0.swf"/>
+			<file href="data/Slide1.swf"/>
+			<file href="data/Slide2.swf"/>
+			<file href="data/Slide3.swf"/>
+			<file href="data/Slide4.swf"/>
+			<file href="data/Slide5.swf"/>
+			<file href="data/srchdata.xml"/>
+			<file href="data/thumb.swf"/>
+			<file href="data/vconfig.xml"/>
+			<file href="data/viewer.xml"/>
+			<file href="metadata/ACAP.json"/>
+			<file href="metadata/trackdta.xml"/>
+			<file href="SCORM.htm"/>
+			<file href="scormdriver.js"/>
+			<file href="SCORM_utilities.js"/>
+			<file href="standard.js"/>
+			<file href="Utilities.js"/>
+			<file href="viewer.swf"/>
+			<file href="webObject.js"/>
+			<file href="index.htm"/>
+		</resource>
+	</resources>
+</manifest>

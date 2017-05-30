@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presentation width="720" height="540" isRTL="0" preview="0" enableAccessibility="0" defaultSlideDuration="10" start="play" buildNum="11.0.0.133">
+	<presentationTitle>Lesson02.A Hello Word Program 01</presentationTitle>
+	<speakers>
+		<speaker>
+			<name>Lê Anh Tuấn</name>
+			<speakerTitle>Coder</speakerTitle>
+			<email>tuananhle@gmail.com</email>
+		</speaker>
+	</speakers>
+	<search url="srchdata.xml"/>
+	<presentationBg url="bg.swf"/>
+	<masters><master url="Master0.swf" id="1" totalFrames="1"><backdrop frameNum="0"/><slidexml><AS3Class className="TL_4b34cf860a1e482cbf85e01de09769c8yxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30"><OnLoadCallBacks/><Audios/></AS3Class></slidexml></master></masters>
+	<layouts><layout url="Layout0.swf" id="1" totalFrames="1"><backdrop displayBgSp="true"/><slidexml><AS3Class className="TL_ba11963adae849de9517f32cc67a38bdyxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30"><OnLoadCallBacks/><Audios/></AS3Class></slidexml></layout><layout url="Layout1.swf" id="2" totalFrames="1"><backdrop displayBgSp="true"/><slidexml><AS3Class className="TL_d22100f06d7e4806ac7844bfcdc81692yxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30"><OnLoadCallBacks/><Audios/></AS3Class></slidexml></layout><layout url="Layout2.swf" id="3" totalFrames="1"><backdrop displayBgSp="true"/><slidexml><AS3Class className="TL_32f9f99b5eb145ecb280e0b9cbfbcac0yxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30"><OnLoadCallBacks/><Audios/></AS3Class></slidexml></layout></layouts>
+	<slides>
+		<slide id="256" showInTOC="" inSequence="" frameRate="30" totalFrames="30" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="auto" blockMovement="false" hideplaybar="false" type="normal">
+			<content url="Slide0.swf" id="256"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="1" frameNum="0"/>
+			<slidexml><AS3Class className="TL_8017b0a3ccad49e4b7b22ba080bd2b7fyxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><OnLoadCallBacks/><Audios/></AS3Class></slidexml>
+			<clickAnimations></clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@Your First Java Program@</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="1"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="262" showInTOC="false" inSequence="" frameRate="30" totalFrames="180" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="never" blockMovement="false" hideplaybar="false" type="quiz" quiz="10066" group="-1">
+			<questions>
+				<question index="10075" weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide1.swf" id="262"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="2" frameNum="0"/>
+			<slidexml><AS3Class className="TL_7767c558e8e94a64b78cfd21b2d5a42byxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><FrameScript frameNo="1"><Stop/></FrameScript><OnLoadCallBacks/><Audios/></AS3Class><Quiz questionType="FillInBlank"><AS3Class className="Question10075xyxyxyxyxyxyxyxyxyxyxyxyx" classType="Question_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" numQuestionAttemptsAllowed="1" questionNumInQuiz="10075" questionText="" isTracked="1" objectiveID="Quiz10066" interactionID="Interaction10075" interactionType="fill-in" mustAnswerAll="1"><AS3Class className="CorrectFeedbackxyxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncorrectFeedbackxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncompleteFeedbackyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" visible="0" accText=" "/><AS3Class className="ReviewFeedback10075xyxyxyxyxyxyxyxyxyx" classType="ReviewFeedback_xyxyxyxyxyxyxyxyxyxyxyx"/></AS3Class></Quiz></slidexml>
+			<clickAnimations>
+				<click startTime="167" isStartRelative="false" duration="666"/>
+				<click startTime="867" isStartRelative="false" duration="666"/>
+				<click startTime="1567" isStartRelative="false" duration="666"/>
+				<click startTime="2267" isStartRelative="false" duration="666"/>
+				<click startTime="2967" isStartRelative="false" duration="666"/>
+				<click startTime="3667" isStartRelative="false" duration="666"/>
+				<click startTime="4367" isStartRelative="false" duration="666"/>
+			</clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@Which method is the starting point for all Java programs?@</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="2"/>
+		</slide>
+		<slide id="258" showInTOC="" inSequence="" frameRate="30" totalFrames="30" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="auto" blockMovement="false" hideplaybar="false" type="normal">
+			<content url="Slide2.swf" id="258"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="3" frameNum="0"/>
+			<slidexml><AS3Class className="TL_9a47896d0dba453c9518e0e71301113eyxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><OnLoadCallBacks/><Audios/></AS3Class></slidexml>
+			<clickAnimations></clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@@</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="3"/>
+		</slide>
+		<slide id="264" showInTOC="false" inSequence="" frameRate="30" totalFrames="180" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="never" blockMovement="false" hideplaybar="false" type="quiz" quiz="10066" group="-1">
+			<questions>
+				<question index="10089" weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide3.swf" id="264"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="2" frameNum="0"/>
+			<slidexml><AS3Class className="TL_4fcc624440fa449a97e5c0af94ecdd89yxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><FrameScript frameNo="1"><Stop/></FrameScript><OnLoadCallBacks/><Audios/></AS3Class><Quiz questionType="FillInBlank"><AS3Class className="Question10089xyxyxyxyxyxyxyxyxyxyxyxyx" classType="Question_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" numQuestionAttemptsAllowed="1" questionNumInQuiz="10089" questionText="" isTracked="1" objectiveID="Quiz10066" interactionID="Interaction10089" interactionType="fill-in" mustAnswerAll="1"><AS3Class className="CorrectFeedbackxyxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncorrectFeedbackxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncompleteFeedbackyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" visible="0" accText=" "/><AS3Class className="ReviewFeedback10089xyxyxyxyxyxyxyxyxyx" classType="ReviewFeedback_xyxyxyxyxyxyxyxyxyxyxyx"/></AS3Class></Quiz></slidexml>
+			<clickAnimations>
+				<click startTime="167" isStartRelative="false" duration="666"/>
+				<click startTime="867" isStartRelative="false" duration="666"/>
+				<click startTime="1567" isStartRelative="false" duration="666"/>
+				<click startTime="2267" isStartRelative="false" duration="666"/>
+				<click startTime="2967" isStartRelative="false" duration="666"/>
+				<click startTime="3667" isStartRelative="false" duration="666"/>
+				<click startTime="4367" isStartRelative="false" duration="666"/>
+			</clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@Fill in the blank to declare a method called "hello()". @</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="4"/>
+		</slide>
+		<slide id="260" showInTOC="" inSequence="" frameRate="30" totalFrames="30" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="auto" blockMovement="false" hideplaybar="false" type="normal">
+			<content url="Slide4.swf" id="260"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="3" frameNum="0"/>
+			<slidexml><AS3Class className="TL_01190b8994e9492081a253482784404fyxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><OnLoadCallBacks/><Audios/></AS3Class></slidexml>
+			<clickAnimations></clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@@</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="5"/>
+		</slide>
+		<slide id="265" showInTOC="false" inSequence="" frameRate="30" totalFrames="180" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="never" blockMovement="false" hideplaybar="false" type="quiz" quiz="10066" group="-1">
+			<questions>
+				<question index="10103" weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide5.swf" id="265"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="2" frameNum="0"/>
+			<slidexml><AS3Class className="TL_c41a7bbd06444184be43374bc3cf38edyxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><FrameScript frameNo="1"><Stop/></FrameScript><OnLoadCallBacks/><Audios/></AS3Class><Quiz questionType="MultipleChoice"><AS3Class className="Question10103xyxyxyxyxyxyxyxyxyxyxyxyx" classType="Question_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" numQuestionAttemptsAllowed="1" interactionType="choice" questionNumInQuiz="10103" questionText="" isTracked="1" objectiveID="Quiz10066" interactionID="Interaction10103" mustAnswerAll="0"><AS3Class className="CorrectFeedbackxyxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncorrectFeedbackxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncompleteFeedbackyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" visible="0" accText=" "/><AS3Class className="ReviewFeedback10103xyxyxyxyxyxyxyxyxyx" classType="ReviewFeedback_xyxyxyxyxyxyxyxyxyxyxyx"/></AS3Class></Quiz></slidexml>
+			<clickAnimations>
+				<click startTime="167" isStartRelative="false" duration="666"/>
+				<click startTime="867" isStartRelative="false" duration="666"/>
+				<click startTime="1567" isStartRelative="false" duration="666"/>
+				<click startTime="2267" isStartRelative="false" duration="666"/>
+				<click startTime="2967" isStartRelative="false" duration="666"/>
+				<click startTime="3667" isStartRelative="false" duration="666"/>
+				<click startTime="4367" isStartRelative="false" duration="666"/>
+			</clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@Which method prints text in a Java program? @</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="6"/>
+		</slide>
+		<slide id="261" showInTOC="" inSequence="" frameRate="30" totalFrames="30" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="auto" blockMovement="false" hideplaybar="false" type="normal">
+			<content url="Slide6.swf" id="261"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="1" frameNum="0"/>
+			<slidexml><AS3Class className="TL_dad6df18154e44bb953c825ff8c706ecyxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><OnLoadCallBacks/><Audios/></AS3Class></slidexml>
+			<clickAnimations></clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@@</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="7"/>
+		</slide>
+		<slide id="266" showInTOC="false" inSequence="" frameRate="30" totalFrames="180" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="never" blockMovement="false" hideplaybar="false" type="quiz" quiz="10066" group="-1">
+			<questions>
+				<question index="10122" weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide7.swf" id="266"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="2" frameNum="0"/>
+			<slidexml><AS3Class className="TL_eba55d3cd47d4a69a8c8ce78b1a3adadyxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><FrameScript frameNo="1"><Stop/></FrameScript><OnLoadCallBacks/><Audios/></AS3Class><Quiz questionType="FillInBlank"><AS3Class className="Question10122xyxyxyxyxyxyxyxyxyxyxyxyx" classType="Question_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" numQuestionAttemptsAllowed="1" questionNumInQuiz="10122" questionText="" isTracked="1" objectiveID="Quiz10066" interactionID="Interaction10122" interactionType="fill-in" mustAnswerAll="1"><AS3Class className="CorrectFeedbackxyxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncorrectFeedbackxyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" actionType="nextSlide" visible="0" accText=" " audioClipID="-1" actionArg1="" actionArg2="1"/><AS3Class className="IncompleteFeedbackyxyxyxyxyxyxyxyxyxyx" classType="Feedback_xyxyxyxyxyxyxyxyxyxyxyxyxyxyx" onlyDoAction="0" visible="0" accText=" "/><AS3Class className="ReviewFeedback10122xyxyxyxyxyxyxyxyxyx" classType="ReviewFeedback_xyxyxyxyxyxyxyxyxyxyxyx"/></AS3Class></Quiz></slidexml>
+			<clickAnimations>
+				<click startTime="167" isStartRelative="false" duration="666"/>
+				<click startTime="867" isStartRelative="false" duration="666"/>
+				<click startTime="1567" isStartRelative="false" duration="666"/>
+				<click startTime="2267" isStartRelative="false" duration="666"/>
+				<click startTime="2967" isStartRelative="false" duration="666"/>
+				<click startTime="3667" isStartRelative="false" duration="666"/>
+				<click startTime="4367" isStartRelative="false" duration="666"/>
+			</clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@Fill in the blanks to create a valid Java program.@</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="8"/>
+		</slide>
+		<slide id="263" showInTOC="false" inSequence="" frameRate="30" totalFrames="30" usePptxSlideDur="0" lockInteractionSlide="false" isHiddenInteractionSl="false" isWrongInteractionSl="false" swfConvertorEngine="Nova" slideDuration="10" advance="never" blockMovement="false" hideplaybar="false" type="scoring" quiz="10066">
+			<content url="Slide8.swf" id="263"/>
+			<backdrop displayBgSp="true"/>
+			<master id="1" frameNum="0"/>
+			<layout id="2" frameNum="0"/>
+			<slidexml><AS3Class className="TL_12f3be7ddbcf47c4b5910be805a465c4yxy" classType="PptTmline_xyxyxyxyxyxyxyxyxyxyxyxyxyxy" frameRate="30" normalSlide="1"><FrameScript frameNo="1"><Stop/></FrameScript><OnLoadCallBacks/><Audios/></AS3Class><Quiz questionType="ScoringSlide"/></slidexml>
+			<clickAnimations>
+				<click startTime="167" isStartRelative="false" duration="666"/>
+			</clickAnimations>
+			<webObjectContents/>
+			<flvContents/>
+			<slideTitle>@A Hello World Program@</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="9"/>
+		</slide>
+	</slides>
+	<quizzes>
+		<reportingOptions statusReportingOption="0" successReportingCriteria="-1" completionReportingCriteria="4" slideViewCompletionCriteria="-1" slideViewSuccessCriteria="-1" quizCompletionCriteria="-1" quizSuccessCriteria="-1" completionCriteriaSlideViewVal="0" successCriteriaSlideViewVal="0" dataToReport="1" exitNormal="0" isTracked="true" LMSType="SCORM_1_2" AuthorwareDelimeter="," trackingLevel="score" completionValueToSend="default" completionTrigger="breeze" trackingURLEncodeVersionAndSession="true" trackingCharsToNotUrlEncode="" trackingSendInterval="1" completionSlideViewPercentage="100" trackingSendResumeData="true" sendScoreAsPercent="true"></reportingOptions>
+		<quizSettings showQuestionList="true" showScores="true" showPassScore="false" showCurrentScore="false" showQuestionMarks="false" showAttempts="true" showQuizAttempts="false" showQuestionAttempts="false" showQuestionCorrectFeedback="true" showQuestionIncorrectFeedback="true" showQuizNavigationWarning="true"></quizSettings>
+		<quiz quizID="10066" title="A Hello World Program" numQuizAttemptsAllowed="1" minScore="0" passingScore="80" percent="true" passingGradeAction="nextSlide" passingGradeActionArg1="" passingGradeActionArg2="1" failingGradeAction="nextSlide" failingGradeActionArg1="" failingGradeActionArg2="1" questionAdvance="optional" quizAdvance="optional" showProgress="minimal" allowBackwardMovementInQuiz="true" allowReviewMode="true" passedScoreFeedback="Passed" failedScoreFeedback="Failed" shuffleQuestions="0">
+			<questiongroups></questiongroups>
+		</quiz>
+		<quiz quizID="10004" title="Quiz" numQuizAttemptsAllowed="1" minScore="0" passingScore="80" percent="true" passingGradeAction="nextSlide" passingGradeActionArg1="" passingGradeActionArg2="1" failingGradeAction="nextSlide" failingGradeActionArg1="" failingGradeActionArg2="1" questionAdvance="optional" quizAdvance="optional" showProgress="minimal" allowBackwardMovementInQuiz="true" allowReviewMode="true" passedScoreFeedback="Passed" failedScoreFeedback="Failed" shuffleQuestions="0">
+			<questiongroups></questiongroups>
+		</quiz>
+	</quizzes>
+	<attachments></attachments>
+</presentation>

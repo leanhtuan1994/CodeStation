@@ -1,0 +1,85 @@
+﻿C# applications run:
+A. on the .NET Framework
+B. only on Linux	
+C. using Java
+ANSWER: A
+Phần mở rộng của tập tin HTML là ?
+a. htm
+b. html
+c. Cả 2 câu trên đều đúng
+d. Cả hai đều sai
+ANSWER: b
+Từ HTML là từ viết tắt của từ nào?
+a. Hyperlinks and Text Markup Language
+b. Home Tool Markup Language
+c. Hyper Text Markup Language
+d.Tất cả đều sai
+ANSWER: d
+Ai (tổ chức nào) tạo ra Web standards?
+a. The World Wide Web Consortium
+b. Microsoft
+c. Netscape
+d. Tất cả đều sai.
+ANSWER: c
+Đâu là tag tạo ra tiêu đề web kích cỡ lớn nhất.
+a. <heading>
+b. <h1>
+c. <h6>
+d. <head>
+ANSWER: a
+Đâu là tag tạo ra tiêu đề web kích cỡ nhỏ nhất.
+a. <heading>
+b. <h1>
+c. <h6>
+d. <head>
+ANSWER: b
+Đâu là tag để xuống dòng trong web?
+a. <lb>
+b. <br>
+c. <break>
+ANSWER: c
+Đâu là tag để để giữ nội dung cố định trên dòng trong trang web?
+a. <wrap>
+b. <br>
+c. <nobreak>
+d. <nobr>
+ANSWER: d
+Đâu là tag tạo ra màu nền của web?
+a. <body color="yellow">
+b. <body bgcolor="yellow">
+c. <background>yellow</background>
+ANSWER: d
+Đâu là tag tạo ra chữ in đậm
+a. <b>
+b. <bold>
+c. <bld>
+d. <bb>
+ANSWER: a
+Đâu là tag tạo ra chữ in nghiêng
+a. <ii>
+b. <italics>
+c. <i>
+ANSWER: a
+Đâu là tag tạo ra gạch chân chữ
+a. <underline>
+b. <u>
+c. <i>
+d. Tất cả đều sai
+ANSWER: a
+Đâu là tag tạo ra liên kết (links) trong web
+a. <a url="http://www.w3schools.com">W3Schools.com</a>
+b. <a>http://www.w3schools.com</a>
+c. <a href="http://www.w3schools.com">W3Schools</a>
+d. <a name="http://www.w3schools.com">W3Schools.com</a>
+ANSWER: a
+Đâu là tag tạo ra liên kết đến email?
+a. <a href="xxx@yyy">
+b. <a href="mailto:xxx@yyy">
+c. <mail>xxx@yyy</mail>
+d. <mail href="xxx@yyy">
+ANSWER: a
+Làm sao để khi click chuột vào link thì tạo ra cửa sổ mới?
+a. <a href="url" new>
+b. <a href="url" target="new">
+c. <a href="url" target="_blank">
+ANSWER: b

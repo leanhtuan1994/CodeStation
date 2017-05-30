@@ -1,0 +1,9 @@
+s:405:"<p>The grading method defines how the grade for a single attempt of the activity is determined.</p>
+
+<p>There are 4 grading methods:</p>
+
+<ul><li>Learning objects - The number of completed/passed learning objects</li>
+<li>Highest grade - The highest score obtained in all passed learning objects</li>
+<li>Average grade - The mean of all the scores</li>
+<li>Sum grade - The sum of all the scores</li>
+</ul>";

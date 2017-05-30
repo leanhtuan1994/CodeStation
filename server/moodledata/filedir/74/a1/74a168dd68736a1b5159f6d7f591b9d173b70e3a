@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracking-metadata generator="Presenter ver 10.0" version="1.0">
+	<objective id="Quiz10020" max-score="2" passing-score="2" min-score="0">
+		<name>Java</name>
+		<interactions>
+			<interaction id="Interaction10025" QUniqId="10025" type="choice" score="1" correct-response="B">
+				<name>Multiple choice</name>
+				<title>To distribute your application to different platforms, how many Java versions do you need to create?</title>
+				<responses>
+					<response id="A">Two versions </response>
+					<response id="B">Just one version </response>
+					<response id="C">One for each platform </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10053" QUniqId="10053" type="choice" score="1" correct-response="C">
+				<name>Multiple choice</name>
+				<title>Which one of the following statements is true?</title>
+				<responses>
+					<response id="A">Java is used only in web and mobile applications </response>
+					<response id="B">Java is used only in NASA's space related applications </response>
+					<response id="C">Java has a huge developer community </response>
+				</responses>
+			</interaction>
+		</interactions>
+	</objective>
+</tracking-metadata>
